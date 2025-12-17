@@ -1,3 +1,3 @@
 # collegeEventCRM-
 
-im currntly working in SFDX of my project soon ill comit 
+Im currntly working in SFDX of my project soon i will commmit !!!

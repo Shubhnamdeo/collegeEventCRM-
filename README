@@ -1,0 +1,13 @@
+# College Event Management Project
+
+Problem Statement
+We needed a way to manage college events, track budget, and allow coordinators to edit details while keeping data secure.
+
+Solution
+I built a solution on Salesforce using:
+Custom Objects: College Events
+Security:WD set to Public Read Only, Sharing Rules for Coordinators.
+Automation:A Salesforce Flow to handle [mention what your flow does, e.g., "Auto-approve budget" or "Send Email Notifications"].
+
+Implementation
+See the attached screenshots for the Flow Logic.

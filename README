@@ -1,13 +1,17 @@
-# College Event Management Project
+College Event Management System (Salesforce)
 
-Problem Statement
-We needed a way to manage college events, track budget, and allow coordinators to edit details while keeping data secure.
+Project Overview This Salesforce application streamlines college event management. It allows students to view events while restricting editing rights to authorized coordinators. The system uses Custom Objects, security settings, and Flow automation.
 
-Solution
-I built a solution on Salesforce using:
-Custom Objects: College Events
-Security:WD set to Public Read Only, Sharing Rules for Coordinators.
-Automation:A Salesforce Flow to handle [mention what your flow does, e.g., "Auto-approve budget" or "Send Email Notifications"].
+Key Features
 
-Implementation
-See the attached screenshots for the Flow Logic.
+Data Model I created a College Event custom object to track details like Event Name, Date, Budget, and Coordinator.
+
+Security and Sharing Organization-Wide Defaults: Set to Public Read Only so students can view but not edit events. Sharing Rules: Grants Read/Write access specifically to the Event Coordinators group for collaboration. Permissions: Configured profile settings to ensure students have basic read access to the object tab.
+
+Process Automation I used Salesforce Flow to automate processes. [Briefly describe flow, e.g., It sends automatic email confirmations upon registration.]
+
+Screenshots The repository includes screenshots of the object configuration, security settings, and the Flow logic diagram.
+
+Technology Stack Built on Salesforce Lightning using Object Manager, Flow Builder, and Sharing Settings.
+
+Author Shubh Namdeo Salesforce Student / Developer

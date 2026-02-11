@@ -33,11 +33,10 @@ Students at GGITS face "registration friction"—the difficulty of creating new 
 <br>
 
 <p align="center">
-  <img src="screen-shots/flowdiagram.png" width="800" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); border: 1px solid #ddd;">
+  <img src="screen-shots/flowdiagram.png" width="450" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); border: 1px solid #ddd;">
   <br>
   <i><b>Figure 2:</b> Backend Logic - Registration Screen Flow</i>
 </p>
-
 ---
 
 ## Key Features

@@ -17,6 +17,9 @@ https://orgfarm-2d53aa5dc7-dev-ed.develop.my.site.com/s
 ## Project Overview
 The Event Hub is a centralized web portal designed to eliminate disorganized manual event registrations. It allows administrators to post campus events and enables students to browse and register instantly using a secure, branded interface. This project focuses on providing a seamless User Experience (UX) while maintaining strict data integrity in the Salesforce backend.
 
+## Problem Statement
+Students at GGITS face "registration friction"—the difficulty of creating new accounts and filling out long forms for every campus workshop or sports event. Additionally, without automated capacity tracking, events are often over-registered, leading to poor student experiences. This project solves these issues by providing a one-click registration portal using Google SSO.
+
 ## Key Features
 
 One-Click Registration

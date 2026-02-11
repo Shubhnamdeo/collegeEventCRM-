@@ -33,6 +33,13 @@ The system includes real-time validation logic. Before a registration is finaliz
 
 Automated Confirmations
 Using Salesforce Flow, the system provides instant visual feedback to the student on the screen and triggers an automated email notification with event details.
+## Project Visuals
+
+### Event Hub Portal Home Page
+![Website Home Page](screen-shots/Screenshot%202025-12-25%20193733.png)
+
+### Registration Flow Logic
+![Flow Diagram](screen-shots/Screenshot%202025-12-24%20190848.png)
 
 ## Technical Architecture
 The system is built on the Salesforce Platform using a Model-View-Controller (MVC) architecture to separate the database, logic, and user interface.

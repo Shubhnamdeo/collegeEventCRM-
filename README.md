@@ -1,18 +1,59 @@
-# Salesforce DX Project: Next Steps
+# Event Management System (Capstone Project)
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+**Program**
+TCS Salesforce Last Mile
 
-## How Do You Plan to Deploy Your Changes?
+**Organization**
+Gyan Ganga Institute of Technology and Science (GGITS)
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+**Author**
+Shubh Namdeo
 
-## Configure Your Salesforce DX Project
+**Live Site Link**
+https://orgfarm-2d53aa5dc7-dev-ed.develop.my.site.com/s
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+---
 
-## Read All About It
+## Project Overview
+The Event Hub is a centralized web portal designed to eliminate disorganized manual event registrations. It allows administrators to post campus events and enables students to browse and register instantly using a secure, branded interface.
 
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+## Key Features
+One-Click Registration: A custom Screen Flow handles the logic for student sign-ups.
+
+Google SSO Integration: Students log in using existing college Google accounts via a Salesforce Auth Provider.
+
+Capacity Management: Real-time tracking of available seats to prevent over-booking.
+
+Automated Confirmations: Instant feedback and email notifications upon successful registration.
+
+## Technical Architecture
+The system is built on the Salesforce Platform using a Model-View-Controller (MVC) approach.
+
+
+
+### Data Model
+College Event: Parent object to store event names, dates, and descriptions.
+
+Event Registration: A junction object linking users to events.
+
+### Security
+OWD: Set to Private for registrations to ensure student privacy.
+
+Field Level Security: Ensures students can view events but cannot modify them.
+
+### Technology Stack
+Frontend: Salesforce Experience Cloud (LWR/Aura templates)
+
+Backend Automation: Salesforce Flow Builder
+
+Identity: Salesforce Auth Provider (Google SSO)
+
+## Repository Structure
+force-app/main/default/objects: Definitions for Custom Objects.
+
+force-app/main/default/flows: Source code for the Registration Flows.
+
+force-app/main/default/permissionsets: Security and access configurations.
+
+## Contact
+LinkedIn: https://www.linkedin.com/in/shubh-namdeo-8a9902186

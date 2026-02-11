@@ -36,10 +36,10 @@ Using Salesforce Flow, the system provides instant visual feedback to the studen
 ## Project Visuals
 
 ### Event Hub Portal Home Page
-![Website Home Page](screen-shots/Screenshot%202025-12-25%20193733.png)
+![Website Home Page](screen-shots/Screenshot%202025-12-24%20190848.png)
 
 ### Registration Flow Logic
-![Flow Diagram](screen-shots/Screenshot%202025-12-24%20190848.png)
+![Flow Diagram]()
 
 ## Technical Architecture
 The system is built on the Salesforce Platform using a Model-View-Controller (MVC) architecture to separate the database, logic, and user interface.

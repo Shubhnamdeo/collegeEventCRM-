@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>College_Event__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>College Event</label>
+    <referenceTo>College_Event__c</referenceTo>
+    <relationshipLabel>Event Registrations (College Event)</relationshipLabel>
+    <relationshipName>Event_Registrations1</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

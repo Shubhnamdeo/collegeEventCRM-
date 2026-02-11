@@ -25,7 +25,7 @@ Students at GGITS face "registration friction"—the difficulty of creating new 
 ## Project Visuals
 
 <p align="center">
-  <img src="screen-shots/home.png" width="800" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); border: 1px solid #ddd;">
+  <img src="screen-shots/homepage.png" width="800" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); border: 1px solid #ddd;">
   <br>
   <i><b>Figure 1:</b> The Event Hub Student Portal Home Page</i>
 </p>

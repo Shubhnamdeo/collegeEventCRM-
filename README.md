@@ -37,12 +37,27 @@ Students at GGITS face "registration friction"—the difficulty of creating new 
   <br>
   <i><b>Figure 2:</b> Backend Logic - Registration Screen Flow</i>
 </p>
----
+
 
 ## Key Features
 
 **One-Click Registration**
 I designed a custom Screen Flow that simplifies the user journey. The system automatically identifies the logged-in student, matches them to the event, and creates a registration record without requiring manual data entry.
+
+<br>
+
+**Google SSO Integration**
+To ensure security and ease of access, I integrated Salesforce Auth Providers with Google. This allows students to use their existing college credentials, removing the need for separate password management.
+
+<br>
+
+**Capacity Management**
+The system includes real-time validation logic. Before a registration is finalized, the system checks the total capacity against the number of existing registrants to prevent over-booking.
+
+<br>
+
+**Automated Confirmations**
+Using Salesforce Flow, the system provides instant visual feedback to the student on the screen and triggers an automated email notification with event details.
 
 **Google SSO Integration**
 To ensure security and ease of access, I integrated Salesforce Auth Providers with Google. This allows students to use their existing college credentials, removing the need for separate password management.
